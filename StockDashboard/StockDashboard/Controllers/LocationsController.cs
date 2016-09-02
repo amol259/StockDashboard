@@ -21,7 +21,7 @@ namespace StockDashboard.Controllers
             locations.Add(new Models.Locations()
             {
                 LocationID = "1",
-                LocationName = "Warehouse 1"
+                LocationName = "US Warehouse 1"
             });
             locations.Add(new Models.Locations()
             {

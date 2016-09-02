@@ -140,11 +140,13 @@
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\Chart.min.js" />
     <Content Include="scripts\ui-bootstrap-tpls-1.1.2.min.js" />
-    <Content Include="SPA\APIService.js" />
+    <Content Include="SPA\ApiService.js" />
     <Content Include="SPA\App.js" />
     <Content Include="SPA\Controller\GridController.js" />
     <Content Include="SPA\Controller\MainController.js" />
     <Content Include="SPA\Controller\ViewProductController.js" />
+    <Content Include="SPA\Views\Grid.html" />
+    <Content Include="SPA\Views\ViewProductWindow.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -163,8 +165,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\web.config" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -174,7 +176,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="SPA\Views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
